@@ -1,10 +1,94 @@
 * {
   box-sizing: border-box;
 }
+
 html {
   font-size: 62.5%;
 }
+
 body {
   font-size: 1.6rem;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
+}
+
+/* common */
+.content {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: flex;
+  height: 40px;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 42px;
+  background: #d63131;
+  color: azure;
+}
+
+/* header */
+.header {
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  margin-left: 72px;
+  margin-right: 72px;
+  padding: 15px;
+}
+
+.navbar ul {
+  display: flex;
+  margin-left: 42.5px;
+}
+
+.navbar .actions {
+  margin-left: auto;
+}
+
+.navbar ul a {
+  color: #d63131;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 6px 12px;
+}
+
+.navbar .logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar .logo-text {
+  color: #d63131;
+  font-family: "Jolly Lodger", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-top: 4px;
+}
+
+.navbar .actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbar .action-link {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  border: 1px solid #cc0505;
 }
