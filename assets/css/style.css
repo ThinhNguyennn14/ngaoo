@@ -34,6 +34,10 @@ a {
 
 .btn:hover {
   transform: scale(1.1);
+}
+
+.header .effect:hover {
+  color: #9b0e0e;
   transition: 0.5s;
 }
 
@@ -58,10 +62,11 @@ a {
 .navbar ul a {
   color: #d63131;
   text-align: center;
-  font-size: 1.4rem;
-  font-weight: 500;
-  padding: 6px 12px;
-  transform: scale(1.1);
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 6px 15px;
+  box-sizing: border-box;
+  display: inline-block;
 }
 
 .navbar .logo {
