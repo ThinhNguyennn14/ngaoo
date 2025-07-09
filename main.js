@@ -1,20 +1,21 @@
-   document.addEventListener("DOMContentLoaded", function() {
-       const navLinks = document.querySelectorAll('.nav-menu a');
-       const sections = document.querySelectorAll('section');
+const links = document.querySelectorAll('a[data-target]');
+links.forEach(link => {
+  link.addEventListener('click', e => {
+    e.preventDefault();
+    const target = document.getElementById(link.dataset.target);
+    document.querySelectorAll('section').forEach(sec => sec.classList.add('hidden'));
+    target.classList.remove('hidden');
+  });
+});
 
-       navLinks.forEach(link => {
-           link.addEventListener('click', function(event) {
-               event.preventDefault(); 
-               const targetId = this.getAttribute('data-target');
 
-               sections.forEach(section => {
-                   section.classList.add('hidden');
-               });
-               const targetSection = document.getElementById(targetId);
-               if (targetSection) {
-                   targetSection.classList.remove('hidden');
-               }
-           });
-       });
-   });
+const heroImage = document.querySelector('.hero-image');
+const images = ['./img/image1.jpg', './img/image2.jpg', './img/image3.jpg'];
+let current = 0;
+
+setInterval(() => {
+  current = (current + 1) % images.length;
+  heroImage.src = images[current];
+}, 5000);
+
    
