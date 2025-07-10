@@ -52,7 +52,7 @@
         <li><a href="#" data-target="contact-section">Contact</a></li>
     </ul>
 
-      <a class="book-table-btn" href="#">Book A Table</a>
+      <a class="book-table-btn" href="#" data-target="booking-section">Book A Table</a>
     </div>
   </nav>
   <!-- HOME SECTION -->
@@ -434,60 +434,622 @@
         </div>
       </div>
     </section>
-    <section class="hero">
+  
+    <div class="about-container">
+    <div class="about-hero">
       <img
-        alt="Restaurant interior with wooden tables and chairs, warm lighting"
-        class="hero-img"
-        src="https://storage.googleapis.com/a1aa/image/2b803158-2dee-41f0-6d43-46f88065ee65.jpg"
+        class="about-hero-image"
+        src="./img/nhahang.jpg"
+        alt="Interior of a restaurant with wooden tables and chairs, dimly lit with warm lighting"
       />
-      <button aria-label="Play video" class="play-btn">
-        <i class="fas fa-play"></i>
-      </button>
-      <div class="hero-text">
-        Feel the authentic &amp;<br />
-        original taste from us
+      <div class="about-hero-text">
+        <button aria-label="Play video" class="about-play-button">
+          <svg class="about-play-icon" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M8 5v14l11-7z"></path>
+          </svg>
+        </button>
+        <h1 class="about-hero-title">
+          Feel the authentic &<br />
+          original taste from us
+        </h1>
+      </div>
+    </div>
+
+    <div class="about-features">
+      <div class="about-feature-box">
+        <div class="about-feature-icon">
+          <i class="far fa-file-alt"></i>
+        </div>
+        <div>
+          <h3 class="about-feature-title">Multi Cuisine</h3>
+          <p class="about-feature-desc">
+            In the new era of technology we look in the future with certainty life.
+          </p>
+        </div>
+      </div>
+
+      <div class="about-feature-box">
+        <div class="about-feature-icon">
+          <i class="far fa-window-restore"></i>
+        </div>
+        <div>
+          <h3 class="about-feature-title">Easy To Order</h3>
+          <p class="about-feature-desc">
+            In the new era of technology we look in the future with certainty life.
+          </p>
+        </div>
+      </div>
+
+      <div class="about-feature-box">
+        <div class="about-feature-icon">
+          <i class="far fa-clock"></i>
+        </div>
+        <div>
+          <h3 class="about-feature-title">Fast Delivery</h3>
+          <p class="about-feature-desc">
+            In the new era of technology we look in the future with certainty life.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="stat-container">
+    <div class="stat-wrapper">
+      <div class="stat-text">
+        <h1 class="stat-heading">A little information<br>for our valuable guest</h1>
+        <p class="stat-description">
+          At place, we believe that dining is not just about food but also about the overall experience...
+        </p>
+
+        <div class="stat-grid">
+          <div class="stat-card stat-card-1">
+            <div class="stat-number">3</div>
+            <div class="stat-label">Locations</div>
+          </div>
+          <div class="stat-card stat-card-2">
+            <div class="stat-number">1995</div>
+            <div class="stat-label">Founded</div>
+          </div>
+          <div class="stat-card stat-card-3">
+            <div class="stat-number">65+</div>
+            <div class="stat-label">Staff Members</div>
+          </div>
+          <div class="stat-card stat-card-4">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Satisfied Customers</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="stat-image">
+        <div class="stat-image-box">
+          <img src="./img/nauan.jpg" class="stat-hero-image" alt="Restaurant Image">
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="testimonials-section">
+      <div class="testimonials-container">
+        <h2 class="testimonials-title">What Our Customers Say</h2>
+        <div class="testimonials-grid">
+          <!-- Testimonial 1 -->
+          <article class="testimonial-card">
+            <div>
+              <p class="testimonial-quote">“The best restaurant”</p>
+              <p class="testimonial-text">
+                Last night, we dined at place and were simply blown away. From the moment we stepped in, we were enveloped in an inviting atmosphere and greeted with warm smiles.
+              </p>
+            </div>
+            <div>
+              <hr />
+              <div class="testimonial-profile">
+                <img src="./img/women1.png" alt="Sophie Robson" />
+                <div>
+                  <p class="testimonial-name">Sophie Robson</p>
+                  <p class="testimonial-location">Los Angeles, CA</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Testimonial 2 -->
+          <article class="testimonial-card">
+            <div>
+              <p class="testimonial-quote">“Simply delicious”</p>
+              <p class="testimonial-text">
+                Place exceeded my expectations on all fronts. The ambiance was cozy and relaxed, making it a perfect venue for our anniversary dinner. Each dish was prepared and beautifully presented.
+              </p>
+            </div>
+            <div>
+              <hr />
+              <div class="testimonial-profile">
+                <img src="./img/man1.png" alt="Matt Cannon" />
+                <div>
+                  <p class="testimonial-name">Matt Cannon</p>
+                  <p class="testimonial-location">San Diego, CA</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Testimonial 3 -->
+          <article class="testimonial-card">
+            <div>
+              <p class="testimonial-quote">“One of a kind restaurant”</p>
+              <p class="testimonial-text">
+                The culinary experience at place is first to none. The atmosphere is vibrant, the food – nothing short of extraordinary. The food was the highlight of our evening. Highly recommended.
+              </p>
+            </div>
+            <div>
+              <hr />
+              <div class="testimonial-profile">
+                <img src="./img/women2.png" alt="Andy Smith" />
+                <div>
+                  <p class="testimonial-name">Andy Smith</p>
+                  <p class="testimonial-location">San Francisco, CA</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
-    <section class="features">
-      <div class="feature">
-        <i class="far fa-file-alt"></i>
-        <h3>Multi Cuisine</h3>
-        <p>In the new era of technology we look in the future with certainty life.</p>
-      </div>
-      <div class="feature">
-        <i class="far fa-file-alt"></i>
-        <h3>Easy To Order</h3>
-        <p>In the new era of technology we look in the future with certainty life.</p>
-      </div>
-      <div class="feature">
-        <i class="far fa-clock"></i>
-        <h3>Fast Delivery</h3>
-        <p>In the new era of technology we look in the future with certainty life.</p>
-      </div>
-    </section>
+
   </section>
 
   <!-- MENU SECTION -->
   <section id="menu-section" class="hidden">
     <div class="menu-container">
-      <h2>Menu</h2>
-      <p>Explore our delightful menu of dishes made with fresh ingredients and creative recipes.</p>
+      <div class="menu-wrapper">
+        <!-- Header Section -->
+        <div class="menu-header">
+          <h1 class="menu-title">Our Menu</h1>
+          <p class="menu-description">
+            We consider all the drivers of change gives you the components you need to change to create a truly happens.
+          </p>
+        </div>
+
+        <!-- Navigation -->
+        <div class="menu-nav">
+          <button class="menu-btn active" data-category="all">All</button>
+          <button class="menu-btn" data-category="breakfast">Breakfast</button>
+          <button class="menu-btn" data-category="main">Main Dishes</button>
+          <button class="menu-btn" data-category="drinks">Drinks</button>
+          <button class="menu-btn" data-category="desserts">Desserts</button>
+        </div>
+
+        <!-- Menu Grid -->
+        <div class="menu-items" id="menuItems">
+          <!-- Item 1 -->
+          <div class="menu-item" data-category="breakfast">
+            <div class="menu-image">
+              <img src="./img/item1.jpg" alt="Fried Eggs"/>
+            </div>
+            <div class="menu-info">
+              <div class="menu-price">$ 9.99</div>
+              <h3 class="menu-name">Fried Eggs</h3>
+              <p class="menu-description-text">Made with eggs, lettuce, salt, oil and other ingredients</p>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="menu-item" data-category="main">
+            <div class="menu-image">
+              <img src="./img/item2.jpg" alt="Hawaiian Pizza"/>
+            </div>
+            <div class="menu-info">
+              <div class="menu-price">$ 15.99</div>
+              <h3 class="menu-name">Hawaiian Pizza</h3>
+              <p class="menu-description-text">Made with eggs, lettuce, salt, oil and other ingredients</p>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="menu-item" data-category="drinks">
+            <div class="menu-image">
+              <img src="./img/item3.jpg" alt="Martinez Cocktail"/>
+            </div>
+            <div class="menu-info">
+              <div class="menu-price">$ 7.25</div>
+              <h3 class="menu-name">Martinez Cocktail</h3>
+              <p class="menu-description-text">Made with eggs, lettuce, salt, oil and other ingredients</p>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="menu-item" data-category="desserts">
+            <div class="menu-image">
+              <img src="./img/item4.jpg" alt="Butterscotch Cake"/>
+            </div>
+            <div class="menu-info">
+              <div class="menu-price">$ 20.99</div>
+              <h3 class="menu-name">Butterscotch Cake</h3>
+              <p class="menu-description-text">Made with eggs, lettuce, salt, oil and other ingredients</p>
+            </div>
+          </div>
+
+          <!-- Item 5 -->
+          <div class="menu-item" data-category="drinks">
+            <div class="menu-image">
+              <img src="./img/item5.jpg" alt="Mint Lemonade"/>
+            </div>
+            <div class="menu-info">
+              <div class="menu-price">$ 5.89</div>
+              <h3 class="menu-name">Mint Lemonade</h3>
+              <p class="menu-description-text">Made with eggs, lettuce, salt, oil and other ingredients</p>
+            </div>
+          </div>
+
+          <!-- Item 6 -->
+          <div class="menu-item" data-category="desserts">
+            <div class="menu-image">
+              <img src="./img/item6.jpg" alt="Chocolate Icecream"/>
+            </div>
+            <div class="menu-info">
+              <div class="menu-price">$ 18.05</div>
+              <h3 class="menu-name">Chocolate Icecream</h3>
+              <p class="menu-description-text">Made with eggs, lettuce, salt, oil and other ingredients</p>
+            </div>
+          </div>
+
+          <!-- Item 7 -->
+          <div class="menu-item" data-category="main">
+            <div class="menu-image">
+              <img src="./img/item7.jpg" alt="Cheese Burger"/>
+            </div>
+            <div class="menu-info">
+              <div class="menu-price">$ 12.55</div>
+              <h3 class="menu-name">Cheese Burger</h3>
+              <p class="menu-description-text">Made with eggs, lettuce, salt, oil and other ingredients</p>
+            </div>
+          </div>
+
+          <!-- Item 8 -->
+          <div class="menu-item" data-category="breakfast">
+            <div class="menu-image">
+              <img src="./img/item8.jpg" alt="Classic Waffles"/>
+            </div>
+            <div class="menu-info">
+              <div class="menu-price">$ 12.99</div>
+              <h3 class="menu-name">Classic Waffles</h3>
+              <p class="menu-description-text">Made with eggs, lettuce, salt, oil and other ingredients</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="order-apps-container">
+      <div class="order-apps-wrapper">
+        <!-- Left Text Section -->
+        <div class="order-apps-text">
+          <h1 class="order-apps-title">You can order through apps</h1>
+          <p class="order-apps-desc">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit enim bibendum sed et aliquet aliquet risus tempor semper.
+          </p>
+        </div>
+
+        <!-- Right App Logos Grid -->
+        <div class="order-apps-logos">
+          <div class="order-apps-grid">
+            <div class="order-apps-card">
+              <img src="./img/logo01.svg" alt="Uber Eats" class="logo-small" />
+            </div>
+            <div class="order-apps-card">
+              <img src="./img/logo02.svg" alt="GrubHub" class="logo-small" />
+            </div>
+            <div class="order-apps-card">
+              <img src="./img/logo03.svg" alt="Postmates" class="logo-small" />
+            </div>
+            <div class="order-apps-card">
+              <img src="./img/logo04.svg" alt="DoorDash" />
+            </div>
+            <div class="order-apps-card">
+              <img src="./img/logo05.svg" alt="Foodpanda" />
+            </div>
+            <div class="order-apps-card">
+              <img src="./img/logo06.svg" alt="Deliveroo" />
+            </div>
+            <div class="order-apps-card">
+              <img src="./img/logo07.svg" alt="Instacart" class="logo-small" />
+            </div>
+            <div class="order-apps-card">
+              <img src="./img/logo08.svg" alt="Just Eat" class="logo-small" />
+            </div>
+            <div class="order-apps-card">
+              <img src="./img/logo09.svg" alt="DiDi Food" class="logo-small" />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- PAGES SECTION -->
   <section id="pages-section" class="hidden">
-    <div class="pages-container">
-      <h2>Pages</h2>
-      <p>This is a placeholder for other pages content like Styleguide, Changelog...</p>
+    <div class="blog-container">
+      <!-- Header -->
+      <div class="blog-header">
+        <h1 class="blog-title">Our Blog & Articles</h1>
+        <p class="blog-description">
+          We consider all the drivers of change gives you the components you need to change to create a truly happens.
+        </p>
+      </div>
+
+      <!-- Blog Main -->
+      <div class="blog-main">
+        <div class="blog-grid">
+          <!-- Repeat 12 articles -->
+          <article class="blog-card">
+            <div class="blog-image">
+              <img src="./img/tem1.jpg" alt="Gluten free sushi preparation">
+            </div>
+            <div class="blog-content">
+              <p class="blog-date">January 3, 2023</p>
+              <h3 class="blog-title-sm">How to prepare a delicious gluten free sushi</h3>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-image">
+              <img src="./img/tem2.jpg" alt="Baking lessons">
+            </div>
+            <div class="blog-content">
+              <p class="blog-date">January 3, 2023</p>
+              <h3 class="blog-title-sm">Exclusive baking lessons from the pastry king</h3>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-image">
+              <img src="./img/tem3.jpg" alt="Perfect fries in air fryer">
+            </div>
+            <div class="blog-content">
+              <p class="blog-date">January 3, 2023</p>
+              <h3 class="blog-title-sm">How to prepare the perfect fries in an air fryer</h3>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-image">
+              <img src="./img/tem4.jpg" alt="Delicious chicken tenders">
+            </div>
+            <div class="blog-content">
+              <p class="blog-date">January 3, 2023</p>
+              <h3 class="blog-title-sm">How to prepare delicious chicken tenders</h3>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-image">
+              <img src="./img/tem5.jpg" alt="Cooking gadgets">
+            </div>
+            <div class="blog-content">
+              <p class="blog-date">January 3, 2023</p>
+              <h3 class="blog-title-sm">5 great cooking gadgets you can buy to save time</h3>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-image">
+              <img src="./img/tem6.jpg" alt="Perfect burger">
+            </div>
+            <div class="blog-content">
+              <p class="blog-date">January 3, 2023</p>
+              <h3 class="blog-title-sm">The secret tips & tricks to prepare a perfect burger</h3>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-image">
+              <img src="./img/tem7.jpg" alt="Cheesecake recipes">
+            </div>
+            <div class="blog-content">
+              <p class="blog-date">January 3, 2023</p>
+              <h3 class="blog-title-sm">7 delicious cheesecake recipes you can prepare</h3>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-image">
+              <img src="./img/tem8.jpg" alt="Pizza restaurants">
+            </div>
+            <div class="blog-content">
+              <p class="blog-date">January 3, 2023</p>
+              <h3 class="blog-title-sm">5 great pizza restaurants you should visit this city</h3>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-image">
+              <img src="./img/tem9.jpg" alt="Cooking gadgets for kids">
+            </div>
+            <div class="blog-content">
+              <p class="blog-date">January 3, 2023</p>
+              <h3 class="blog-title-sm">5 great cooking gadgets you can buy to save time</h3>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-image">
+              <img src="./img/tem10.jpg" alt="Gluten free sushi again">
+            </div>
+            <div class="blog-content">
+              <p class="blog-date">January 3, 2023</p>
+              <h3 class="blog-title-sm">How to prepare a delicious gluten free sushi</h3>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-image">
+              <img src="./img/tem11.jpg" alt="Quick desserts">
+            </div>
+            <div class="blog-content">
+              <p class="blog-date">January 3, 2023</p>
+              <h3 class="blog-title-sm">Top 20 simple and quick desserts for kids</h3>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-image">
+              <img src="./img/tem12.jpg" alt="Simple desserts">
+            </div>
+            <div class="blog-content">
+              <p class="blog-date">January 3, 2023</p>
+              <h3 class="blog-title-sm">Top 20 simple and quick desserts for kids</h3>
+            </div>
+          </article>
+        </div>
+      </div>
     </div>
+
   </section>
 
   <!-- CONTACT SECTION -->
   <section id="contact-section" class="hidden">
-    <div class="contact-container">
-      <h2>Contact Us</h2>
-      <p>Have questions or want to reserve a table? Reach out to us anytime!</p>
+    <div class="contact-page-container">
+        <!-- Header Section -->
+        <div class="contact-header-section">
+          <h1 class="contact-page-title">Contact Us</h1>
+          <p class="contact-page-description">
+            We consider all the drivers of change gives you the components you need to change to create a truly happens.
+          </p>
+        </div>
+
+        <!-- Main Content -->
+        <div class="contact-main-content">
+            <!-- Contact Form Section -->
+            <div class="contact-form-section">
+                <form class="contact-form" id="contactForm">
+                <div class="contact-form-row">
+                    <div class="contact-form-group">
+                    <label for="name" class="contact-form-label">Name</label>
+                    <input type="text" id="name" name="name" class="contact-form-input" placeholder="Enter your name" required/>
+                    </div>
+                    <div class="contact-form-group">
+                    <label for="email" class="contact-form-label">Email</label>
+                    <input type="email" id="email" name="email" class="contact-form-input" placeholder="Enter email address" required/>
+                    </div>
+                </div>
+
+                <div class="contact-form-group">
+                    <label for="subject" class="contact-form-label">Subject</label>
+                    <input type="text" id="subject" name="subject" class="contact-form-input" placeholder="Write a subject" required/>
+                </div>
+
+                <div class="contact-form-group">
+                    <label for="message" class="contact-form-label">Message</label>
+                    <textarea id="message" name="message" class="contact-form-textarea" placeholder="Write your message" rows="6" required></textarea>
+                </div>
+
+                <button type="submit" class="contact-submit-btn">Send</button>
+                </form>
+            </div>
+
+            <!-- Contact Information Section -->
+            <div class="contact-info-section">
+                <div class="contact-info-grid">
+                <!-- Call Us -->
+                    <div class="contact-info-card">
+                        <h3 class="contact-info-title">Call Us:</h3>
+                        <p class="contact-info-content contact-phone">+1-234-567-8900</p>
+                    </div>
+
+                    <!-- Hours -->
+                    <div class="contact-info-card">
+                        <h3 class="contact-info-title">Hours:</h3>
+                        <div class="contact-info-content">
+                        <p>Mon-Fri: 11am - 8pm</p>
+                        <p>Sat, Sun: 9am - 10pm</p>
+                        </div>
+                    </div>
+
+                    <!-- Our Location -->
+                    <div class="contact-info-card">
+                        <h3 class="contact-info-title">Our Location:</h3>
+                        <div class="contact-info-content">
+                        <p>123 Bridge Street</p>
+                        <p>Nowhere Land, LA 12345</p>
+                        <p>United States</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- booking-section -->
+  <section id="booking-section" class="hidden">
+    <div class="page-container">
+      <!-- Header Section -->
+      <div class="header-section">
+          <h1 class="page-title">Book A Table</h1>
+          <p class="page-description">
+              We consider all the drivers of change gives you the components you need to change to create a truly happens.
+          </p>
+      </div>
+
+      <!-- Main Content -->
+      <div class="main-content">
+          <!-- Map Background -->
+          <div class="map-background"></div>
+          
+          <!-- Booking Form Section -->
+          <div class="booking-section">
+              <div class="booking-form-container">
+                  <form class="booking-form" id="bookingForm">
+                      <div class="form-row">
+                          <div class="form-group">
+                              <label for="date" class="form-label">Date</label>
+                              <input type="date" id="date" name="date" class="form-input" required>
+                          </div>
+                          <div class="form-group">
+                              <label for="time" class="form-label">Time</label>
+                              <select id="time" name="time" class="form-select" required>
+                                  <option value="">Select time</option>
+                                  <option value="18:00">06:00 PM</option>
+                                  <option value="18:30">06:30 PM</option>
+                                  <option value="19:00">07:00 PM</option>
+                                  <option value="19:30">07:30 PM</option>
+                                  <option value="20:00">08:00 PM</option>
+                                  <option value="20:30">08:30 PM</option>
+                                  <option value="21:00">09:00 PM</option>
+                                  <option value="21:30">09:30 PM</option>
+                              </select>
+                          </div>
+                      </div>
+
+                      <div class="form-row">
+                          <div class="form-group">
+                              <label for="name" class="form-label">Name</label>
+                              <input type="text" id="name" name="name" class="form-input" placeholder="Enter your name" required>
+                          </div>
+                          <div class="form-group">
+                              <label for="phone" class="form-label">Phone</label>
+                              <input type="tel" id="phone" name="phone" class="form-input" placeholder="x xxx xxx xxxx" required>
+                          </div>
+                      </div>
+
+                      <div class="form-group">
+                          <label for="persons" class="form-label">Total Person</label>
+                          <select id="persons" name="persons" class="form-select" required>
+                              <option value="">Select number of persons</option>
+                              <option value="1">1 Person</option>
+                              <option value="2">2 Persons</option>
+                              <option value="3">3 Persons</option>
+                              <option value="4">4 Persons</option>
+                              <option value="5">5 Persons</option>
+                              <option value="6">6 Persons</option>
+                              <option value="7">7 Persons</option>
+                              <option value="8">8 Persons</option>
+                          </select>
+                      </div>
+
+                      <button type="submit" class="submit-btn">Book A Table</button>
+                  </form>
+              </div>
+          </div>
+      </div>
     </div>
   </section>
 
